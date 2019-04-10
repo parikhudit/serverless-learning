@@ -1,1 +1,0 @@
-Permissions Required : Create a Lambda role with AmazonS3ReadOnlyAccess & AWSLambdaBasicExecutionRole and provide it to your lambda

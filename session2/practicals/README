@@ -1,0 +1,7 @@
+Practical for parsing data of a CSV file that is uploaded to S3.
+The csv_parse.zip is code that needs to be uploaded to lambda function that is to be invoked when a csv file is uploaded to S3.
+The lambda function needs to have desired S3 bucket as a trigger point. Also, it needs to have a service role that has AmazonS3ReadOnlyAccess & AWSLambdaBasicExecutionRole permissions.
+
+To test this, either a new csv file (sample.csv in our case) needs to be uploaded to S3 or it can also be tested using a test event generated from 'S3 PUT event template' in lambda function console.
+
+The logs of the lambda execution can be checked in respective CloudWatch log group.
